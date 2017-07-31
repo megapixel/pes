@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+	<META NAME="AUTHOR" CONTENT="schoa;kiatbeng tan">
+	<META NAME="CREATED" CONTENT="20150828;54800000000000">
+	<META NAME="CHANGEDBY" CONTENT="kiatbeng tan">
+	<META NAME="CHANGED" CONTENT="20161116;103800000000000">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-right: 1.28in; margin-top: 0.49in; margin-bottom: 0.49in }
+		P { margin-bottom: 0.08in; direction: ltr; color: #000000; widows: 2; orphans: 2 }
+		P.western { font-family: "Arial", sans-serif; font-size: 11pt; so-language: en-GB }
+		P.cjk { font-family: "Batang", "바탕"; font-size: 11pt; so-language: ko-KR }
+		P.ctl { font-family: "Arial", sans-serif; font-size: 12pt; so-language: ar-SA }
+		H1 { margin-bottom: 0.17in; direction: ltr; font-variant: small-caps; color: #000000; widows: 2; orphans: 2 }
+		H1.western { font-family: "Arial", sans-serif; font-size: 14pt; so-language: en-GB }
+		H1.cjk { font-family: "Batang", "바탕"; font-size: 14pt; so-language: ko-KR }
+		H1.ctl { font-family: "Arial", sans-serif; font-size: 14pt; so-language: ar-SA }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" DIR="LTR">
+<DIV TYPE=HEADER>
+	<P LANG="en-GB" STYLE="margin-bottom: 0.95in"><BR>
+	</P>
+</DIV>
+<H1 LANG="en-GB" CLASS="western" STYLE="margin-left: 0.8in; text-indent: -0.8in; margin-top: 0.33in; margin-bottom: 0in; page-break-inside: avoid">
+Airflow Direction Test</H1>
+<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+<BR><BR>
+</P>
+<TABLE WIDTH=566 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=77>
+	<COL WIDTH=222>
+	<COL WIDTH=81>
+	<COL WIDTH=127>
+	<TR VALIGN=TOP>
+		<TD WIDTH=77 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Project
+			Name</B></FONT></P>
+		</TD>
+		<TD WIDTH=222 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=81 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Project
+			No.</B></FONT></P>
+		</TD>
+		<TD WIDTH=127 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=77 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>System
+			Name</B></FONT></P>
+		</TD>
+		<TD WIDTH=222 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=81 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>System
+			No.</B></FONT></P>
+		</TD>
+		<TD WIDTH=127 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=77 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>SOP
+			No.</B></FONT></P>
+		</TD>
+		<TD WIDTH=222 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=81 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Test
+			Pack No.</B></FONT></P>
+		</TD>
+		<TD WIDTH=127 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in"><BR><BR>
+</P>
+<TABLE WIDTH=566 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=106>
+	<COL WIDTH=98>
+	<COL WIDTH=73>
+	<COL WIDTH=156>
+	<COL WIDTH=62>
+	<TR>
+		<TD COLSPAN=5 WIDTH=550 VALIGN=TOP BGCOLOR="#bfbfbf" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Test
+			Pack Documents</B></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=106 HEIGHT=18 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">Document
+			Nos  &amp; Rev No:</FONT></P>
+		</TD>
+		<TD COLSPAN=4 WIDTH=430 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=106 HEIGHT=15 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">List
+			Ref</FONT></P>
+		</TD>
+		<TD COLSPAN=4 WIDTH=430 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5 WIDTH=550 HEIGHT=3 BGCOLOR="#bfbfbf" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><SPAN LANG="en-SG"><B>Pre-Inspection
+			</B></SPAN></FONT><FONT FACE="Arial Narrow, sans-serif"><SPAN LANG="en-SG"><B><SPAN STYLE="background: #bfbfbf">Approval
+			of Documentation</SPAN></B></SPAN></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5 WIDTH=550 HEIGHT=34 VALIGN=TOP STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">Remarks
+			/ Exclusions:</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 WIDTH=217 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">All
+			applicable documentation is included in the Test Pack (Yes / No)</FONT></P>
+		</TD>
+		<TD WIDTH=73 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=156 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">Total
+			Pages in Test Pack</FONT></P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 COLSPAN=3 WIDTH=304 VALIGN=TOP STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">Test
+			Pack Contents are Acceptable Prior to Execution:</FONT></P>
+		</TD>
+		<TD WIDTH=156 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+			<FONT FACE="Arial Narrow, sans-serif">Verified by </FONT>
+			</P>
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">(Print
+			Name &amp; Signature)</FONT></P>
+		</TD>
+		<TD WIDTH=62 BGCOLOR="#bfbfbf" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif">Date</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=156 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=62 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-SG" CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in"><BR><BR>
+</P>
+<TABLE WIDTH=566 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=165>
+	<COL WIDTH=179>
+	<COL WIDTH=179>
+	<TR VALIGN=TOP>
+		<TD WIDTH=165 HEIGHT=8 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P LANG="en-GB" CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><SPAN LANG="en-US"><B>Instruction
+			/ Type</B></SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=179 BGCOLOR="#d9d9d9" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Expected
+			Results</B></FONT></P>
+		</TD>
+		<TD WIDTH=179 BGCOLOR="#d9d9d9" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Actual
+			Results</B></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=165 HEIGHT=9 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.08in"><FONT SIZE=2><B>Time</B></FONT></P>
+		</TD>
+		<TD WIDTH=179 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+			<FONT FACE="Arial Narrow, sans-serif"><I>Start Time:</I></FONT></P>
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><I>Stop
+			Time:</I></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=165 HEIGHT=9 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.08in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=165 HEIGHT=9 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.08in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=165 HEIGHT=8 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.08in"><FONT SIZE=2><B>Test
+			Results</B></FONT></P>
+		</TD>
+		<TD WIDTH=179 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=179 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in"><BR><BR>
+</P>
+<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in; page-break-before: always">
+<BR><BR>
+</P>
+<TABLE WIDTH=566 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=132>
+	<COL WIDTH=115>
+	<COL WIDTH=131>
+	<COL WIDTH=131>
+	<TR>
+		<TD COLSPAN=4 WIDTH=550 BGCOLOR="#bfbfbf" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Measurement
+			/ Test Equipment</B></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=132 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=115 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Serial</B></FONT></P>
+		</TD>
+		<TD WIDTH=131 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Calibration
+			due</B></FONT></P>
+		</TD>
+		<TD WIDTH=131 BGCOLOR="#bfbfbf" STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><FONT FACE="Arial Narrow, sans-serif"><B>Calibration
+			Cert No.</B></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=132 HEIGHT=2 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in; margin-bottom: 0.04in">
+			<BR><BR>
+			</P>
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=115 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=131 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=131 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western" STYLE="margin-top: 0.04in"><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P LANG="en-GB" CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=565 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=549>
+	<TR>
+		<TD WIDTH=549 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P CLASS="western"><FONT FACE="Arial Narrow, sans-serif"><B>Comments:</B></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=549 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=549 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P LANG="en-GB" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=566 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=87>
+	<COL WIDTH=232>
+	<COL WIDTH=71>
+	<COL WIDTH=119>
+	<TR>
+		<TD WIDTH=87 HEIGHT=21 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Arial Narrow, sans-serif"><B>Verified
+			by</B></FONT></P>
+			<P CLASS="western"><FONT FACE="Arial Narrow, sans-serif"><B>(initial)</B></FONT></P>
+		</TD>
+		<TD WIDTH=232 STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=71 BGCOLOR="#bfbfbf" STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0in">
+			<P CLASS="western"><FONT FACE="Arial Narrow, sans-serif"><B>Date</B></FONT></P>
+		</TD>
+		<TD WIDTH=119 STYLE="border: 1px solid #000000; padding: 0in 0.08in">
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P LANG="en-GB" CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<DIV TYPE=FOOTER>
+	<P LANG="en-GB" ALIGN=CENTER STYLE="margin-top: 0.47in; margin-bottom: 0in">
+	Page <SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=PAGE>2</SDFIELD> of <SDFIELD TYPE=DOCSTAT SUBTYPE=PAGE FORMAT=ARABIC>2</SDFIELD></P>
+</DIV>
+</BODY>
+</HTML>
